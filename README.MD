@@ -82,7 +82,22 @@ or separately(mysql, mongodb, neo4j), some jdbc frameworks
 <li>/findAll_manual</li>
 <li>/findAll_manual/re</li>
 <li>/save_manual/re(**POST request**)</li>
+</ul>
 
+### REST URLs for WorkerXmlController ###
+**URL-base for WorkerJsonController:** http://localhost:8080/worker/xml
+<ul>
+<li>/save_manual/{id}/{name}/{age}/{wage}/{active}</li>
+<li>/update_manual/{id}/{name}/{age}/{wage}/{active}</li>
+<li>/remove_manual/{id}</li>
+<li>/findById_manual/{id}</li>
+<li>/findAll_manual</li>
+<li>/save_manual/re(**POST request**)</li>
+<li>/update_manual/re(**POST request**)</li>
+<li>/remove_manual/re(**POST request**)</li>
+<li>/findById_manual/re/{id}</li>
+<li>/findAll_manual/re</li>
+</ul>
 
 ## curl examples ##
 **save new worker** <br/>
@@ -91,7 +106,7 @@ curl  -i -H "Accept: application/json" -X POST -H "Content-Type: application/jso
 curl  -i -H "Accept: application/json" -X POST -H "Content-Type: application/json" --data '{"id":2,"name": "bar","age":20, "wage": 200.0, "active":false}' http://localhost:8080/worker/json/save_manual  <br/>
 curl  -i -H "Accept: application/json" -X POST -H "Content-Type: application/json" --data '{"id":3,"name": "bim","age":30, "wage": 300.0, "active":true}' http://localhost:8080/worker/json/save_manual  <br/>
 **find all workers** <br/>
-curl http://localhost:8080/worker/json/findAll_manual
+curl http://localhost:8080/worker/json/findAll_manual <br/>
 **find worker by id**<br/>
 curl http://localhost:8080/worker/json/findById_manual/1<br/>
 curl http://localhost:8080/worker/json/findById_manual/2<br/>
