@@ -9,6 +9,7 @@ or separately(mysql, mongodb, neo4j), some jdbc frameworks
 <li>spring 5.0.6</li>
 <li>ubuntu 16.04 LTS</li>
 <li>Tomcat 8.5.15</li>
+<li>Jetty 9.4.10</li>
 </ul>
 
 
