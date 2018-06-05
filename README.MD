@@ -1,7 +1,4 @@
-**In this project, i have tried to used  
-spring rest, jax-rs , jms , databases with spring 
-or separately(mysql, mongodb, neo4j), some jdbc frameworks
-(jdbc, spring JdbcTemplate, hibernate).**
+**In this project, i have tried to used  spring rest, jax-rs , jms , databases with spring or separately(mysql, mongodb, neo4j), some jdbc frameworks (jdbc, spring JdbcTemplate, hibernate).**
 ## Tools , that were used ## 
 <ul> 
 <li>Intellij IDEA 2017.1.3</li>
